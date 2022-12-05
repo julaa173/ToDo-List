@@ -1,9 +1,9 @@
 export const uniqueDates = (tasks) => {
-    const unique = []
+    const unique = [];
 
     tasks.forEach( tasks => {
-      if( !unique.includes(tasks.dateFormat)){
-        unique.push(task.dateFormat);
+      if(!unique.includes(tasks.dateFormat)){
+        unique.push(tasks.dateFormat);
         }
    });
    return unique
